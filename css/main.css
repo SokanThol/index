@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0p;
+    
+}
+body{
+    flex-direction: column;
+    display: flex;
+    color: white;
+
+}
+nav{
+   flex: 0.5;
+   background-color: gold;
+}
+header{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://i.pinimg.com/564x/fd/09/4a/fd094a70dc6d6ad8dc6b5ab53e153440.jpg);
+}
+section{
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+}
+aside{
+    background-color: greenyellow;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: green;
+    flex: 7;
+}
+footer{
+    background-color: blueviolet;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+ul li {
+    padding: 10px;
+}
+ul li a{
+    text-emphasis: none;
+    color: white;
+}
+header h1{
+    font-size: 50px;
+}
+header p{
+    font-size: large;
+} 
+header button{
+    color: blue;
+}
+#num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+#color{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
